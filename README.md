@@ -1,0 +1,143 @@
+<PAGE>
+Guidance to a Goldman Sachs alumnus Hedge Fund with $400 Billion-$500 Billion AUM
+Alpha Trading Strategies Analysis, Maximizing Alpha for Hedge Funds, and, High Frequency Econometrics for Analyzing Price Impact of Trades, Liquidity, and, Market Microstructure
+First Public Release: December 26, 2018
+Dr. Yogesh Malhotra
+Chief Scientist & Executive Director
+Global Risk Management Network, LLC:
+Phone: +1-646-770-7993
+Dr.Yogesh.Malhotra@gmail.com
+http://www.yogeshmalhotra.com/
+https://www.linkedin.com/in/yogeshmalhotra
+Electronic copy available at: https://ssrn.com/abstract=3306817
+<PAGE>
+Alpha Trading Strategies Analysis, Maximizing Alpha for Hedge Funds, and, High Frequency Econometrics for Analyzing Price Impact of Trades, Liquidity, and, Market Microstructure
+Summary:
+The current report resulted from an engagement with a Goldman Sachs alumnus Hedge Fund with $400 Billion-$500 Billion AUM at the time of the engagement. Given the overriding roles of Liquidity and Volatility in the structural Market Microstructure shifts impacting Alpha of Hedge Fund Portfolios in the post-Crisis period, the report made specific recommendations for Hedge Funds strategy and execution. The specific recommendations were based upon: Alpha Trading Strategies Analysis for 400 Trading Strategies; 'Post-Financial Crisis' Strategies for Maximizing Alpha of Hedge Funds, and, High Frequency Econometrics for Analyzing Price Impact of Trades, Liquidity, and, Market Microstructure.
+Alpha Trading Strategies Analysis for 400 Trading Strategies: The first phase focused on a review and analysis of approximately four hundred trading strategies for maximizing alpha, a summary list of which was provided as input. The summary trading strategies published by State Street Associates in multiple issues of SSA Quarterly Scan were used for analysis. Following findings are based upon review of the summary of specific trading strategy articles, review of full-text of those articles in many cases, as well as a review of the editorial filtering process and the source publication selection process. Trading strategies that seemed most profitable were selected based upon the following seven criteria: alpha, plausibility, technical profile, operational framework, portfolio risk, portfolio strategies, market crowding, sector capacity, and, alternative reusability. Observations detailed in prior reports submitted earlier for this phase are summarized below along with key findings and corresponding recommendations.
+Findings:
+i. The scan's source selection process seems ad hoc, arbitrary, and lacks consistency across various quarterly scan lists indicating problematic reliability and validity of selection and reporting criteria.
+ii. The scan's editorial filtering process – as evident from background of editors and their selections of publications and articles as well as summary reviews and ratings – seems apparently biased and probably not best aligned with systematic strategies focus of the specific asset management division.
+Recommendations: The firm needs to develop its own internal strategy selection and review process best aligned with its systematic strategies focus for selection and filtration of publication sources, selection of relevant articles, and, a more robust
+1
+Electronic copy available at: https://ssrn.com/abstract=3306817
+<PAGE>
+methodology for both qualitative and quantitative summary reviews. That being said, the strategy review process must also remain cognizant to major biases that are inherent in the scholarly academic publishing process across all disciplines \( ^{1} \) , given primary focus on academic research.
+In a Nutshell: When selection of strategies is based upon one-line summary reviews and associated quantitative ratings of alpha and risk, the selection and compilation of such reviews should imperatively be a rigorous process that provides the best signal to noise ratio consistent with the goals of decision-makers.
+'Post-Financial Crisis' Strategies for Maximizing Alpha of Hedge Funds: The second phase focused on review and analysis of strategies for maximizing alpha while minimizing risk for hedge funds asset management consistent with focus of the firm's asset management division. Specifically, two key components from aggregated findings from our multiple Hedge Funds risk management engagements directly contributed to the included analysis: review of hedge fund alpha and risk related practices over recent years, and, hedge funds portfolio returns and risk modeling for diverse asset classes. A key focus of that analysis was on new understanding about risks and returns particularly in the post-Crisis period after the Global Financial Crisis which was a watershed event.
+Hedge Fund Practice Research, Analyses, and Findings:
+i. For hedge funds, two types of liquidity are important: position liquidity and fund liquidity.
+ii. Latter depends upon what fund manager can do to delay investors' exit and impact on market prices.
+iii. Liquidity-inhibiting strategies seem to correlate with higher alpha and liquidity risk premium.
+iv. Liquidity signals and market activity signals are used as leading indicators of asset price movement.
+v. Traditional asset allocation and return-based risk methods miss hidden risks such as liquidity risk.
+vi. Losses exceeded 2x past maximum drawdown as 64% funds exhibited hidden risk in course of the Crisis.
+vii. HFT amplifies cross-stock correlation in face of rising volatility accentuated by high-volume trades.
+viii. Post flash-crash insight: high trading volume is not necessarily a reliable indicator of market liquidity.
+ix. Crisis as a watershed event: Traditional ideas about portfolio correlations and volatility as risk indicator failed.
+\( ^{1} \)  See for instance, Publication Bias section in Wikipedia for both popular press and scientific papers on this subject.
+2
+Electronic copy available at: https://ssrn.com/abstract=3306817
+<PAGE>
+x. Risk not same as volatility: risk measure must factor in loss probability and potential magnitude.
+xi. Crisis as a watershed event: Biggest concern: confusion between liquidity and volatility (risk), need for better VaR.
+xii. Quantitative models work best when used with macro risk indicators such as those based on liquidity.
+xiii. New macro risk indicators based on liquidity: credit spreads, bid-ask spreads, trade volumes, curves.
+xiv. Risk-free rates do not exist as interest rates move toward zero, other factors become impediments.
+xv. Fund characteristics related to liquidity and alpha: redemption notice period, redemption frequency, lockup period, age of fund, and size of fund i.e. AuM.
+xvi. Redemption notice period, redemption frequency, and, lockup period are significantly +ve correlated.
+xvii. Young funds tend to generate more alpha regardless of strategy.
+xviii. Redemption notice period and lockup period have positive effect on alphas.
+xix. Investors in hedge funds pay price of reduced alpha for higher liquidity: illiquidity premium exists.
+xx. Worsening liquidity profile can cause a fund to self-destruct as huge withdrawals force a fire sale.
+xxi. In addition to fund-level gates, investor-level gates are recommended to prevent a run on the fund.
+xxii. Runs on funds occurred because of liquidity mismatch between position liquidity and fund liquidity.
+xxiii. Result: evolved portfolio construction with investment strategies aligned across “liquidity spectrum.”
+xxiv. Liquidity is now “third dimension” besides style and leverage for hedge fund investment strategies.
+xxv. Blurred distinctions between long-only, alternatives, PE: shift to ‘segments’ with similar dimensions.
+xxvi. Funds need to prepare for normal, crisis, and, black swan markets to preempt forced liquidations.
+Recommendations: The firm needs to develop its own internal strategy selection and review process to particularly account for the latest cutting-edge practices, many of which are fundamentally diverging from pre-crisis portfolio risk and return models. Doing so is critical for sustained profitability and survival of funds and fund managers. Given inherent nature of academic research and related [e.g. ‘file drawer’] biased process of knowledge creation, many of these practices – if published at all – may become evident in published scholarly research working papers, conference papers, and published papers years from now.
+3
+Electronic copy available at: https://ssrn.com/abstract=3306817
+<PAGE>
+In a Nutshell: In absence of ongoing today's ‘reality check’ for traversing a dynamically evolving landscape of portfolio management risks and rewards, reliance upon yesterday's static map may represent an avoidable perilous strategy. The SSA scans that are based upon years-old knowledge and practices need to be used with an attitude of healthy professional skepticism to avoid driving in today's dynamically evolving landscape while looking in the rear-view mirror and using yesterday's static map.
+High Frequency Econometrics for Analyzing Price Impact of Trades, Liquidity, and, Market Microstructure: The third and final phase of the project further advanced upon cumulative findings about the most critical alpha and risk related portfolio management strategies for hedge funds building upon the last two phases, namely, Alpha Trading Strategies Analysis, and, Maximizing Alpha for Hedge Funds.
+The following findings advance upon interim project reports and program execution outputs submitted earlier. The final third phase project report titled ‘High Frequency Econometrics for Analyzing Price Impact of Trades, Liquidity, and, Market Microstructure’ is also attached in Quantitative Finance and Quantitative Modeling tutorial-cum-presentation format as a separate file attachment named Presentation. The findings listed below are based upon the primary research focus on Quantitative Finance High-Frequency Econometric Modeling and Analyses of HF TAQ data.
+Market Microstructure Research Methodology, Analyses, & Findings:
+i. Bid-ask spreads: 3 components: order processing cost, inventory cost, asymmetric information cost.
+ii. Asymmetric information cost arises when uninformed and informed traders trade in same market.
+iii. Market makers charge premium to protect them from informed trading which results in wider spreads.
+iv. Inventory costs arise when market makers adjust spread against market to balance their inventory.
+v. For instance, to reduce inventory, market maker can reduce both ask price and bid price.
+vi. A significant component of trading cost is the time it takes for an order to execute.
+vii. Large position if sold in one shot can result in significant discount, hence split into smaller orders.
+viii. Total cost of selling a position depends upon how much price declines while the position is sold.
+ix. Hence, it is important to determine the price impact of a trade as it has material impact on profits.
+4
+Electronic copy available at: https://ssrn.com/abstract=3306817
+<PAGE>
+x. Such a measure of price impact of a trade would also help estimate the liquidity of the market.
+xi. Most influential empirical approach for jointly modeling quotes and trades is attributed to Hasbrouck (1991).
+xii. Hasbrouck (JoF, 1991) uses vector autoregressive (VAR) model to measure price impacts.
+xiii. We test VAR model by replicating the results for two stocks for which old TAQ data is accessible.
+xiv. For our empirical study, trading price, volume, and time are most relevant trade variables.
+xv. For our empirical study, bid price, ask price, and time are most relevant quote variables.
+xvi. First step in our analysis arranges trade and quote records in a time-based sequential order.
+xvii. For trading costs analysis, each trade is preceded by prevailing quote in effect before the trade.
+xviii. For VAR analysis of price impact of trade on quotes, focus on quotes updates within 15 seconds of trade.
+xix. In contrast to quotes, trades are typically entered with a delay of 5 seconds consistent with practice.
+xx. Tick test T and quote test Q are used to infer trade direction, i.e., buy or sell, from TAQ trade.
+xxi. T: Buyer-initiated trade price is above previous trade price, seller-initiated trade price is lower than it.
+xxii. Q: buyer-initiated current price is above quote midpoint, seller-initiated current price is lower than it.
+xxiii. All trades having same price and time in seconds are combined assuming they are part of same order.
+xxiv. Spread estimation logic computes net order flow and effective, absolute, and relative spread measures.
+xxv. Estimation of VAR model is preceded by check for lag length, linear trend, and need for intercept term.
+xxvi. The varmax procedure automatically generates each equation of the model to be estimated.
+xxvii. Two equations are generated, one with quote changes, other with net order flow as dependent variable.
+xxviii. Specification check of VAR yields optimal lag length, coefficient of linear trend, and intercept values.
+xxix. Orthogonalized impulse responses describe how system reacts to shock of the underlyi  \( V_{i} = A_{i} V_{i-1} + A_{2} V_{i-2} + e_{i} \)
+xxx. Model is called a vector auto-regression or “VAR” of dimension k and order=2.
+5
+Electronic copy available at: https://ssrn.com/abstract=3306817
+
+<PAGE>
+xxxi. Trade conveys information: market makers post bid-ask after realized transaction and w.r.t. that information.
+xxxii. Model represented by VAR of the return and trade equation based on both price and order flow history.
+xxxiii. Effect of permanent price impact is not instantaneous: it takes several transactions before it is fully realized.
+xxxiv. An impulse response function shows how one variable reacts to changes ('innovations') in another variable.
+xxxv. In dynamic IVAR1 svstem. channe in x (net order flow) effects future values of both x
+\[
+{ } ^ { \mathrm{a} } x _ { t } = \alpha _ { 0 } + \sum _ { \mu = 1 } ^ { p } \alpha _ { t - i } ^ { \mu } x _ { t - i } + \sum _ { \mu = 1 } ^ { p } \alpha _ { t - \mu } ^ { \mu } r _ { t - i } \quad r _ { t } = \gamma _ { 0 } + \gamma _ { t } ^ { \mu } x _ { t } + \sum _ { \mu = 1 } ^ { p } \gamma _ { t - i } ^ { \mu } x _ { t - i } + \sum _ { \mu = 1 } ^ { p } \gamma _ { t - i } ^ { \mu } r _ { t - i }
+\]
+xxxvii. Following above analysis, we estimate 2-equation VAR model with five lags and no trend with OLS.
+xxxviii. Impulse response tables of both stock return time series are then used for examining the outputs.
+xxxix. Impulse response function decays over 12 lags as shown in outputs: indicating results are well behaved.
+xl. Responses of quote changes to net order flow are positive, hence net order flow has information content.
+xli. Positive net order flow causes quotes to increase immediately, as well as in future periods.
+xlii. As further increase in quote's impulse reactions over future lags: order flow has long-term effect on quotes.
+xliii. Hence, as there is information content in trades, the specialist reacts to this information.
+xliv. Dufour & Engle further show that as time between transactions decreases, price impact of trades, speed of price adjustment to trade-related information, and positive autocorrelation of signed trades all increase.
+xlv. They infer that times when markets are most active are times when there is an increased presence of informed traders; they interpret such markets as having reduced liquidity.
+Recommendations: The firm needs to develop its own internal strategy selection and review process with particular focus on latest market microstructure developments relevant to asset pricing in imperfect markets. Emphasis of ‘post-financial crisis’ strategies for maximizing alpha on market microstructure issues such as liquidity and its impact on alpha is evident in recent years. Progress on this front will position the firm competitively w.r.t. other major hedge fund asset management firms with focus on alpha trading strategies.
+In a Nutshell: Intuitive understanding of drivers of latest market microstructure developments such as price impact of trades and liquidity is crucial for the firm given
+6
+Electronic copy available at: https://ssrn.com/abstract=3306817
+<PAGE>
+increasing fluctuations in price and volume in major financial markets and increasing influence that major financial markets have on one another.
+References:
+1. Aldridge, I. A Practical Guide to Algorithmic Strategies and Trading Systems (2009).
+2. Boehmer, E., Broussard, J.P., Kallunki, J.P. Using SAS in Financial Research (2002).
+3. Brocklebank, J. C., and Dickey, D. A. SAS for Forecasting Time Series (2003).
+4. Dufour, A. and Engle, R.F. Time and the Price Impact of a Trade. Journal of Finance (2000).
+5. Engle, R. F. and Russell, J. R. Analysis of High Frequency Financial Data. In: Aït Sahalia, Y. and Hansen, L. (Eds.): Handbook of Financial Econometrics (2005).
+6. Escribano, A. and Pascual, R. Asymmetries in bid and ask responses to innovations in the trading process. In: Bauwens, L., Pohlmeier, W. and Veredas, D.: High Frequency Financial Econometrics: Recent Developments (2007).
+7. Hashrouk, J. Empirical Market Microstructure: The Institutions, Economics, and Econometrics of Securities Trading: The Institutions, Economics, and Econometrics of Securities Trading, Oxford University Press (2007).
+8. Hasbrouck, J. Intraday Price Formation in U.S. Equity Index Markets. Journal of Finance (2003).
+9. Hasbrouck, J. Measuring the Information Content of Stock Trades. Journal of Finance (1991).
+10. Hasbrouck, J. Price Discovery Analysis in SAS Version 1.0. Working Paper. (New York University). (January 10, 2002).
+11. Lee, C. and M. Ready, "Inferring Trade Direction from Intraday Data", Journal of Finance, 46, (1991), 733-746.
+12. Lefèvre, E. Reminiscences of a Stock Operator. Wiley. (January 2006).
+13. Teodorovic, N. Liquidity, Price Impact And Trade Informativeness – Evidence From The London Stock Exchange. Economic Annals, Volume LVI, No. 188, (January – March 2011), 91-123.
+14. Tsay, R. S. Analysis of Financial Time Series, John Wiley & Sons (2010).
+7
+Electronic copy available at: https://ssrn.com/abstract=3306817
