@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quant-research"
+version = "0.1.0"
+description = "Quant Research Platform for Alpha Strategies, Liquidity Risk, and Market Microstructure"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "scipy>=1.10.0",
+    "statsmodels>=0.14.0",
+    "scikit-learn>=1.3.0",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+    "PyYAML>=6.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+    "mypy>=1.5.0",
+    "jupyter>=1.0.0",
+    "ipykernel>=6.25.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "plotly>=5.15.0",
+    "yfinance>=0.2.0",
+]
+
+[project.scripts]
+quant-research = "quant_research.cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["quant_research*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true

@@ -1,0 +1,44 @@
+{
+  "spread_components": {
+    "order_processing_cost": 0.001998073292668323,
+    "inventory_cost": 0.006493779469279043,
+    "adverse_selection_cost": 0.001446613498276126,
+    "total_spread": 0.009938466260223492,
+    "op_share": 0.2010444308358895,
+    "inv_share": 0.6533985525783748,
+    "as_share": 0.14555701658573575
+  },
+  "microstructure_metrics": {
+    "effective_spread": 0.5448054960007728,
+    "realized_spread": 0.5445953632918106,
+    "price_impact": 0.0002101327089621525,
+    "quoted_spread": 0.009938466260223492,
+    "depth": 5110.4232,
+    "volume": 50490126.0,
+    "volatility": 0.18623810679994274,
+    "trade_intensity": 25.641025641025642,
+    "order_imbalance": 0.22282815654262114,
+    "vpin": 0.0
+  },
+  "toxicity_metrics": {
+    "toxicity": -0.00010180678146969455,
+    "adverse_selection": 0.022285173005208398,
+    "pin": 0.42387198000000004
+  },
+  "hft_metrics": {
+    "sub_second_trades": 0,
+    "sub_millisecond_trades": 0,
+    "small_trade_ratio": 0.0,
+    "odd_lot_ratio": 0.99,
+    "hft_probability": 0.495
+  },
+  "summary_stats": {
+    "n_trades": 10000,
+    "n_quotes": 10000,
+    "date_range": {
+      "start": "2024-01-15T09:30:00",
+      "end": "2024-01-15T16:00:00"
+    },
+    "symbols": []
+  }
+}

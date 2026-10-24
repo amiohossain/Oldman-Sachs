@@ -1,0 +1,147 @@
+import numpy as np
+import pandas as pd
+import json
+from typing import Dict, List
+
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from prediction.pipeline import PredictionPipeline, PredictionPipelineConfig
+
+
+def run_experiment(config: PredictionPipelineConfig, name: str) -> Dict:
+    print(f"\n{'='*60}")
+    print(f"EXPERIMENT: {name}")
+    print(f"{'='*60}")
+    
+    pipeline = PredictionPipeline(config)
+    results = pipeline.run()
+    
+    summary = {}
+    for symbol, result in results.items():
+        summary[symbol] = {
+            "mse": result["metrics"].get("mse", 0),
+            "directional_accuracy": result["metrics"].get("directional_accuracy", 0),
+            "correlation": result["metrics"].get("correlation", 0),
+            "sharpe": result["backtest"].get("sharpe", 0),
+            "annual_return": result["backtest"].get("annual_return", 0),
+            "max_drawdown": result["backtest"].get("max_drawdown", 0),
+            "win_rate": result["backtest"].get("win_rate", 0),
+            "profit_factor": result["backtest"].get("profit_factor", 0),
+            "num_trades": result["backtest"].get("num_trades", 0)
+        }
+        
+        print(f"\n{symbol}:")
+        for k, v in summary[symbol].items():
+            print(f"  {k}: {v:.4f}" if isinstance(v, float) else f"  {k}: {v}")
+    
+    return summary
+
+
+# Experiment configurations
+experiments = [
+    # Baseline: 10-day horizon, XGBoost tuned
+    {
+        "name": "XGB_10d_tuned",
+        "config": PredictionPipelineConfig(
+            symbols=["SPY"],
+            start_date="2020-01-01",
+            target_horizon=10,
+            target_type="return",
+            model_type="xgb",
+            tune_hyperparams=True,
+            n_tuning_trials=30,
+            walk_forward_splits=5
+        )
+    },
+    # 5-day horizon
+    {
+        "name": "XGB_5d_tuned",
+        "config": PredictionPipelineConfig(
+            symbols=["SPY"],
+            start_date="2020-01-01",
+            target_horizon=5,
+            target_type="return",
+            model_type="xgb",
+            tune_hyperparams=True,
+            n_tuning_trials=30,
+            walk_forward_splits=5
+        )
+    },
+    # 20-day horizon
+    {
+        "name": "XGB_20d_tuned",
+        "config": PredictionPipelineConfig(
+            symbols=["SPY"],
+            start_date="2020-01-01",
+            target_horizon=20,
+            target_type="return",
+            model_type="xgb",
+            tune_hyperparams=True,
+            n_tuning_trials=30,
+            walk_forward_splits=5
+        )
+    },
+    # Direction classification
+    {
+        "name": "XGB_10d_direction",
+        "config": PredictionPipelineConfig(
+            symbols=["SPY"],
+            start_date="2020-01-01",
+            target_horizon=10,
+            target_type="direction",
+            model_type="xgb_cls",
+            tune_hyperparams=True,
+            n_tuning_trials=30,
+            walk_forward_splits=5
+        )
+    },
+    # Multiple symbols
+    {
+        "name": "XGB_10d_multi",
+        "config": PredictionPipelineConfig(
+            symbols=["SPY", "QQQ", "IWM"],
+            start_date="2020-01-01",
+            target_horizon=10,
+            target_type="return",
+            model_type="xgb",
+            tune_hyperparams=True,
+            n_tuning_trials=30,
+            walk_forward_splits=5
+        )
+    },
+]
+
+if __name__ == "__main__":
+    all_results = {}
+    
+    for exp in experiments:
+        try:
+            result = run_experiment(exp["config"], exp["name"])
+            all_results[exp["name"]] = result
+        except Exception as e:
+            print(f"Error in {exp['name']}: {e}")
+            all_results[exp["name"]] = {"error": str(e)}
+    
+    # Save results
+    with open("experiment_results.json", "w") as f:
+        json.dump(all_results, f, indent=2, default=str)
+    
+    # Print summary
+    print("\n" + "="*60)
+    print("SUMMARY")
+    print("="*60)
+    
+    for exp_name, results in all_results.items():
+        if "error" in results:
+            print(f"\n{exp_name}: ERROR - {results['error']}")
+            continue
+        
+        print(f"\n{exp_name}:")
+        for symbol, metrics in results.items():
+            print(f"  {symbol}: DA={metrics['directional_accuracy']:.2%}, "
+                  f"Sharpe={metrics['sharpe']:.3f}, "
+                  f"Return={metrics['annual_return']:.2%}, "
+                  f"MaxDD={metrics['max_drawdown']:.2%}, "
+                  f"WinRate={metrics['win_rate']:.2%}")
